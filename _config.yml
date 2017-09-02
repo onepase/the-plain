@@ -1,8 +1,8 @@
 # Site Info
 title:              "Hakan *"
 description:        "Hakan Torun - Kişisel Blog"
-google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
-google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
+google_verify:      Q4Ewp22lX-DiRoBVzVVP13l6lh2oxChSmpGfBP0SPj8 # Put your Google Verification here
+google_analytics:   UA-50152086-19 # Put your Google Analytics code
 
 # Author Info
 author_name:        "Hakan Torun" # Your name here
@@ -14,8 +14,8 @@ github_username:    onepase # Your GitHub username here
 # Site Settings
 baseurl:            "https://hakan.io"
 permalink:          /notes/:title # Post permalink
-timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-mathjax:            true  # enables support for mathjax - set to false to disable
+timezone:           Europe/Istanbul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+mathjax:            false  # enables support for mathjax - set to false to disable
 
 # Site Build
 highlighter:        rouge
