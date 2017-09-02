@@ -16,21 +16,23 @@ PHP&#8217;de olmazsa olmazlardan biri olan session kullanımından bahsedelim.
   
 Session bir nevi global değişkenlerdir. Farklı php dosyalarında erişmek istediğiniz veriler olabilir. Örneğin sisteme giriş yapmış kullanıcı adını Session nesnesinde tutalım ve buna erişelim. Kullanıcının sisteme başarılı bir şekilde giriş yaptığını varsayalım. Kullanıcı adı $username değişkeninde saklanıyor olsun. Mesela login.php sayfamızda;
 
-<pre>&lt;?php
+{% highlight ruby %}
+&lt;?php
 session_start();
 $_SESSION["username"]=$username;
 ?&gt;
-</pre>
+{% endhighlight %}
 
 Buradaki session_start() fonksiyonuyla yeni bir oturum başlattık ve session nesnesine username isimli değişkendeki veriyi aktarmış olduk.
   
 Diyelim ki redirect.php diye bir yönlendirme sayfamız var ve bu sayfamız kullanıcı başarılı bir giriş yaptıktan sonra anasayfaya yönlendiriyor olsun. Login.php sayfamızdaki $username değişkenimizi bu sayfada kullanamayız. Dolayısıyla session işimizi görecek.
 
-<pre>&lt;?php
+{% highlight ruby %}
+&lt;?php
 session_start();
 echo "Hoşgeldin ".$_SESSION["username"];
 ?&gt;
-</pre>
+{% endhighlight %}
 
 gibi bir kullanım yapabiliriz. Burada basitçe login.php&#8217;de başarılı bir şekilde giriş yapmış olan kullanıcıya redirect.php sayfasında hoşgeldin dedik.
   
