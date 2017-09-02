@@ -3,8 +3,13 @@ layout: page
 title: About
 ---
 
-Hello.
+Hello I'm Hakan Torun. I work for @<a href="https://www.pardinus.com">Pardinus</a>
 
-This will be your About page. Anything about you, it should be written here in details. You may describe your bio here like who you are, what you do, your intention, social site hyperlinks and how people can contact you, etc.
+I am writing articles about cyber security @<a href="https://www.intersiber.com">intersiber</a>
+I am writing articles about large data and interactive marketing @<a href="http://www.interaktifpazarlama.co">interaktifpazarlama</a>
 
-**Less is more..**
+Previous projects:
+
+gizy: music listening service alternative to Fizy
+yazilimhaber: news about computer software in Turkey
+kousozluk: Social platform of Kocaeli University
