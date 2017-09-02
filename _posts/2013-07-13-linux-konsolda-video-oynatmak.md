@@ -26,4 +26,4 @@ mplayer -vo aa video.avi
 
 komutuyla istenilen video ascii karakterler ile tabi ki siyah-beyaz olarak konsol üzerinden izlenebilir. Sonuç olarak şöyle bir görüntü ortaya çıkacaktır.
 
-<img src="{{ site.url }}/assets/Screenshot-300x168.png" alt="Screenshot" />
+<img src="{{ site.url }}/assets/Screenshot.png" alt="Screenshot" />
