@@ -1,7 +1,7 @@
 ---
 id: 46
 title: 'Tek Disketlik İşletim Sistemi &#8211; Menuet OS'
-date: 2010-06-21T12:15:26+00:00
+date: 2011-12-02T12:15:26+00:00
 author: Pase
 layout: post
 guid: http://www.pasein.com/?p=46
