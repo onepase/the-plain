@@ -1,6 +1,6 @@
 # Site Info
 title:              "Hakan *"
-description:        "The Plain is a minimalist Jekyll theme, that's it. Can't say anymore..."
+description:        "Hakan Torun - Kişisel Blog"
 google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
 google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
 
@@ -12,7 +12,7 @@ twitter_username:   onepase # Your Twitter username here
 github_username:    onepase # Your GitHub username here
 
 # Site Settings
-baseurl:            "https://onepase.github.io"
+baseurl:            "https://hakan.io"
 permalink:          /notes/:title # Post permalink
 timezone:           Asia/Kuala_Lumpur # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to false to disable
