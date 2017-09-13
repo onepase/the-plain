@@ -22,7 +22,7 @@ Peki bu oran ne anlama geliyor? Global Web Index istatistiklerine göre; Türkiy
 Ücretsiz hizmet sağlayıcılar, ücretsiz hizmet verebilmek için neden bu kadar çabalar?
 
 
-"If you don't pay the product, you are the product."
+"If you are not paying for the product, you are the product."
 
 
 Ücretsiz vpn servisleri, kullanıcılarının internet trafiğini kayıt altına alabilir ve kullanıcılarının bağlantı hareketlerinden elde edebilecekleri bilgilerle fazlasıyla işe yarayacak veri setleri elde edebilir. Bu veri setleri, bölgesel istatistiklerden reklam hedeflemelerine kadar çok fazla sayıda alanda kullanılabilir ve üçüncü parti şirketlere satılabilir. Ayrıca, anonim kalmak isteyen kullanıcısının, tam tersi bir şekilde tüm kimliğinin açığa çıkmasına doğrudan veya dolaylı yoldan sebep olabilir. Tabi ki ücretsiz hizmet sağlayıcıların çok daha fazla parametreye tabi amaç ve/veya beklentileri olabilir. Bu sebeple kullanıcı ürüne veya hizmete ödeme yapmadan kullanmak isterken ürünün kendisi olmadığından emin olmalıdır.
