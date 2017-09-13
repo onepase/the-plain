@@ -1,6 +1,6 @@
 ---
 title: 'Ücretsiz VPN servisleri gerçekten ücretsiz mi?'
-date: 2017-12-09T00:15:26+00:00
+date: 2017-09-12T00:15:12+00:00
 author: Hakan
 layout: post
 permalink: /ucretsiz-vpn-servisleri-gercekten-ucretsiz-mi/
