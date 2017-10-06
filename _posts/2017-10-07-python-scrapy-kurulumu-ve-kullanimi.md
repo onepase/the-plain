@@ -64,7 +64,7 @@ Crawl etmek için
 
 ```bash
 scrapy crawl quotes
-`
+```
 
 Elde edilen çıktıyı json formatında bir dosyaya yazmak için
 
