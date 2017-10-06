@@ -70,6 +70,6 @@ Elde edilen çıktıyı json formatında bir dosyaya yazmak için
 
 ```bash
 scrapy crawl quotes -o qutoes.json
-``
+```
 
 komutu kullanılabilir.
