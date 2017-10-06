@@ -62,14 +62,10 @@ Scrapy örümcekleri ile bir veya birden fazla adres üzerinde tarama ve veri ç
 
 Crawl etmek için 
 
-```bash
-scrapy crawl quotes
-```
+`scrapy crawl quotes`
 
 Elde edilen çıktıyı json formatında bir dosyaya yazmak için
 
-```bash
-scrapy crawl quotes -o qutoes.json
-```
+`scrapy crawl quotes -o qutoes.json`
 
 komutu kullanılabilir.
