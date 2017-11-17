@@ -5,7 +5,8 @@ author: Hakan
 layout: post
 permalink: /ucretsiz-vpn-servisleri-gercekten-ucretsiz-mi/
 categories: Genel
-tags: vpn ucretsiz neden ücretsiz ücretsiz mi
+tags: [Ücretsiz, Vpn, Servis]
+img: fingerprint.jpg
 ---
 Erişim engellemelerinin ardı ardına geldiği, Wikipedia maddesi okuyabilmek için VPN kullanılan bir ortamda asıl tehlike ne?
 
