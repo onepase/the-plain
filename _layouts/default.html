@@ -1,20 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+{% include head.html %}
+<body>
 
-	<head>
-		{% include head.html %}
-	</head>
-
-	<body>
-
-		{% include header.html %}
-
-		<main>
-			{{ content | replace: '&#8617;', '&#8617;&#xfe0e;' }}
-		</main>
-
-		{% include footer.html %}
-
-	</body>
-
+  <div class="wrapper">
+    {{ content }}
+  </div>
+  
+  {% include analytics.html %}
+</body>
 </html>

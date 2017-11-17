@@ -1,21 +1,31 @@
-# The Plain v3.0
+# Flexible-Jekyll is a simple and clean theme for Jekyll
 
-The Plain is a minimalist Jekyll theme, designed to focus on writing that really matters to you and your audience. Everything else is just a distraction. Nothing more other than useful and understandable information sharing. I have made a final update to this theme. This theme is suit best for personal blog type, but not limited to. P/S: This theme is originally inspired from Leonard Lamprecht's original [Jekyll theme](https://github.com/leo/leo.github.io) (thanks!).
+![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
 
-[**Live Demo**](http://heiswayi.github.io/the-plain/)
+## Demo
 
-### Screenshot
+Check the theme in action [Demo](https://artemsheludko.github.io/flexible-jekyll/)
 
-![The Plain Screenshot](http://i.imgur.com/8ZXhjfV.png)
+The main page would look like this:
 
-### Philosophy
+![Main page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/home-page.jpg?raw=true)
 
-> Minimalism is a masterpiece of tranquility. -- Heiswayi Nrird
+The post page would look like this:
+
+![Post page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/post-example.jpg?raw=true)
+
+## Features
+
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](http://fontawesome.io/)
+- [Disqus](https://disqus.com/)
+- [Analytics](https://analytics.google.com/analytics/web/)
+- Support Emoji
+
+## Installation:
+
+Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
 
 ### License
 
-[MIT](LICENSE.md)
-
-### Credits
-
-Many thanks to this theme [contributors](https://github.com/heiswayi/the-plain/graphs/contributors) that help fixing bugs or enhance this theme source code.
+GNU General Public License v3.0
