@@ -5,7 +5,8 @@ author: Hakan
 layout: post
 permalink: /python-scrapy-kurulumu-ve-kullanimi/
 categories: Genel
-tags: python scrapy kurulum kullanım
+tags: [python, scrapy, kurulum, kullanım]
+img: python-scrapy.jpg
 ---
 
 Scrapy Python ile yazılmış, html ve xml gibi yapısal içeriklerden verilerin ayıklanmasını sağlayan açık kaynak bir frameworktür. Özellikle web siteleri üzerinde yeterince hızlı bir şekilde scraping ve crawling yapabilmektedir.

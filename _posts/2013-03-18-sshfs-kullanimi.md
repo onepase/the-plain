@@ -1,13 +1,9 @@
 ---
-id: 86
 title: Sshfs Kullanımı
 date: 2013-03-18T01:58:28+00:00
-author: Pase
 layout: post
-guid: http://www.hakantorun.com.tr/?p=86
 permalink: /sshfs-kullanimi/
-categories:
-  - Linux
+img: linux-terminal.jpg
 tags:
   - ssfs
   - sshfs kullanımı
