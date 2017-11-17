@@ -13,7 +13,7 @@ github_username:    onepase # Your GitHub username here
 
 # Site Settings
 baseurl:            "https://hakan.io"
-permalink:          /notes/:title # Post permalink
+permalink:          :title/ # Post permalink
 timezone:           Europe/Istanbul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            false  # enables support for mathjax - set to false to disable
 
@@ -27,11 +27,16 @@ sass:
 
 # Other Params
 include:            [ "robots.txt" ]
-exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 gems:
   - jekyll-sitemap
 
-
+plugins_dir:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+paginate: 8
+paginate_path: "/page/:num"
 
 defaults:
   -
