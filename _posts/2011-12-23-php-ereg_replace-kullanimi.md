@@ -23,7 +23,7 @@ Bazen PHP’de bir takım manipülasyonlar yapmanız gerekebilir. Bu anlarda ken
 $cumle="Bugün hava çok sisli";
 $cumle=ereg_replace("sisli","yağmurlu",$cumle);
 ?>
-{% highlight ruby %}
+{% endhighlight %}
 
 gibi bir yöntem izlememiz gerekiyor. 
 

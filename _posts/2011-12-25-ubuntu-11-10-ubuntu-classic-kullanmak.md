@@ -20,7 +20,7 @@ Bunun için ubuntu-shell ve ubuntu-session-fallback paketlerinin kurulması gere
 apt-get install ubuntu-shell
 
 apt-get install ubuntu-session-fallback
-{% highlight ruby %}
+{% endhighlight %}
 
 ile paketleri kuruyoruz ve ardından tekrar login oluyoruz. Login olurken sağdaki seçenekler ikonu vasıtasıyla Ubuntu Classic seçiyoruz. Bu kısmen sorunu çözüyor. Ancak benim gibi root olarak sisteminizi kullanıyorsanız sorun yaşayabilirsiniz. Root olarak login olmak isterseniz Ubuntu Classic kullanamıyorsunuz ancak normal kullanıcı rollerinde bir problem yok.
 

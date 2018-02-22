@@ -23,6 +23,6 @@ Linux üzerinde radyo yayını dinlemek isteyebilirsiniz. Bunun için vlc,mplaye
 
 {% highlight ruby %}
 mplayer -nolirc http://canliyayin.ozgurradyo.com:8100
-{% highlight ruby %}
+{% endhighlight %}
 
 komutunu kullanmak yeterli.

@@ -60,7 +60,7 @@ $(function() {
       },
     });
 });
-{% highlight ruby %}  
+{% endhighlight %} 
     
 
 Yaptığımız aslında basitçe bir ajax olayı ve input alanına her karakter girilince tetiklenmesini sağlamak. Search idsine sahip input alanına her girilen karakter tekrar ajax isteği başlatıyor ve search.php sayfamıza parametre geçerek bize bir json verisi döndürüyor. Yani örneğin kullanıcının "ali" kelimesini aratacağını düşünelim;
@@ -84,6 +84,6 @@ foreach($results as $k=>$v):
 }
 
 echo json_encode($options);
-{% highlight ruby %}
+{% endhighlight %}
 
 Search.php sayfamızda gelen parametreye göre veritabanımızda arama yapıyoruz ve sonucu json verisi olarak ekrana basıyoruz. Ajax olayı da bu sayede json verisini geri sonuç olarak alıyor ve input alanında otomatik tamamlama verisi olarak kullanıyor.
