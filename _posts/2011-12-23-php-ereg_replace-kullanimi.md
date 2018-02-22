@@ -12,11 +12,11 @@ tags:
   - ereg_replace fonksiyonu kullanımı
   - php ereg_replace fonksiyonu
 ---
-Bazen PHP'de bir takım manipülasyonlar yapmanız gerekebilir. Bu anlarda kendi fonksiyonlarımız iş gördüğü gibi PHP fonksiyonları da imdadınıza koşuyor.
+Bazen PHP’de bir takım manipülasyonlar yapmanız gerekebilir. Bu anlarda kendi fonksiyonlarımız iş gördüğü gibi PHP fonksiyonları da imdadınıza koşuyor.
 
-Şimdi bu fonksiyonlardan sadece birisi olan "ereg_replace" fonksiyonu hakkında biraz bilgi verelim. ereg_replace fonksiyonu stringler üzerinde manipülasyon yapmanıza olanak sağlıyor. Örneğin;
+Şimdi bu fonksiyonlardan sadece birisi olan ereg_replace fonksiyonu hakkında biraz bilgi verelim. ereg_replace fonksiyonu stringler üzerinde manipülasyon yapmanıza olanak sağlıyor. Örneğin;
 
-"Bugün hava çok sisli" cümlesindeki "sisli" kelimesini "yağmurlu" ile değiştirmek için;
+Bugün hava çok sisli cümlesindeki sisli kelimesini yağmurlu ile değiştirmek için;
 
 {% highlight ruby %}
 <?php
@@ -29,4 +29,4 @@ gibi bir yöntem izlememiz gerekiyor.
 
 ereg_replace fonksiyonunun en basit haliyle kullanımı bu şekilde. İlerleyen safhalarda düzenli ifadelerle kullanılması ile birlikte, iş yükünü çok hafifleteceğini hatırlatayım.
 
-_Zamanın ötesinden not: PHP7 ile birlikte ereg_replace fonksiyonu tarihe karıştı._
+Zamanın ötesinden not: PHP7 ile birlikte ereg_replace fonksiyonu tarihe karıştı.
