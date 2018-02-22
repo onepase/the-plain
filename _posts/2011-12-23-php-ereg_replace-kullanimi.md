@@ -1,10 +1,9 @@
 ---
 id: 27
-title: 'PHP &#8220;ereg_replace&#8221; Kullanımı'
+title: 'PHP ereg_replace Fonksiyonu'
 date: 2011-12-23T10:33:55+00:00
-author: Pase
+author: Hakan
 layout: post
-guid: http://www.pasein.com/?p=27
 permalink: /php-ereg_replace-kullanimi/
 categories:
   - Genel
@@ -13,21 +12,21 @@ tags:
   - ereg_replace fonksiyonu kullanımı
   - php ereg_replace fonksiyonu
 ---
-Bazen PHP&#8217;de bir takım manipülasyonlar yapmanız gerekebilir. Bu anlarda kendi fonksiyonlarımızın da iş gördüğü gibi PHP fonksiyonları da imdadınıza koşuyor.
+Bazen PHP'de bir takım manipülasyonlar yapmanız gerekebilir. Bu anlarda kendi fonksiyonlarımız iş gördüğü gibi PHP fonksiyonları da imdadınıza koşuyor.
 
-Şimdi bu fonksiyonlardan sadece birisi olan &#8220;ereg\_replace&#8221; fonksiyonu hakkında biraz bilgi verelim. ereg\_replace fonksiyonu stringler üzerinde manipülasyon yapmanıza olanak sağlıyor. Örneğin;
+Şimdi bu fonksiyonlardan sadece birisi olan "ereg/_replace" fonksiyonu hakkında biraz bilgi verelim. ereg/_replace fonksiyonu stringler üzerinde manipülasyon yapmanıza olanak sağlıyor. Örneğin;
 
-<pre>Bugün hava çok sisli
-</pre>
+"Bugün hava çok sisli" cümlesindeki "sisli" kelimesini "yağmurlu" ile değiştirmek için;
 
-cümlesindeki &#8220;sisli&#8221; kelimesini &#8220;yağmurlu&#8221; ile değiştirmek için;
-
-<pre>&lt;?php
+{% highlight ruby %}
+<?php
 $cumle="Bugün hava çok sisli";
 $cumle=ereg_replace("sisli","yağmurlu",$cumle);
-?&gt;
-</pre>
+?>
+{% highlight ruby %}
 
 gibi bir yöntem izlememiz gerekiyor. 
 
-ereg_replace fonksiyonunun en basit haliyle kullanımı bu şekilde. İlerleyen safhalarda düzenli ifadelerle kullanılması ile birlikte, iş yükünü çok hafifleteceğini hatırlatayım. </p></p>
+ereg_replace fonksiyonunun en basit haliyle kullanımı bu şekilde. İlerleyen safhalarda düzenli ifadelerle kullanılması ile birlikte, iş yükünü çok hafifleteceğini hatırlatayım.
+
+_Zamanın ötesinden not: PHP7 ile birlikte ereg_replace fonksiyonu tarihe karıştı._
