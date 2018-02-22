@@ -1,6 +1,6 @@
 ---
 id: 102
-title: 'C Socket Programlama &#8211; Client / Server Uygulaması'
+title: 'C Socket Programlama - Client / Server Uygulaması'
 date: 2013-07-18T03:05:30+00:00
 author: Hakan
 layout: post
