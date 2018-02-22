@@ -34,7 +34,7 @@ Hazırlık:
 <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.10.3.custom.css" >
 <script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
 <input type="text" id="search" name="search" >
-{% highlight ruby %}
+{% endhighlight %}
 
 Autocomplete kullanacağımız input alanı için şöyle bir yol izlememiz gerekiyor;
 
