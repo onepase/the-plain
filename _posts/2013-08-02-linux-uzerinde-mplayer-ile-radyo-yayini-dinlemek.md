@@ -21,8 +21,8 @@ Linux üzerinde radyo yayını dinlemek isteyebilirsiniz. Bunun için vlc,mplaye
   
 Örnek olarak Özgür radyo stream için "canliyayin.ozgurradyo.com" adresi üzerinden 8100 portunu kullanıyor. 
 
-`
+{% highlight ruby %}
 mplayer -nolirc http://canliyayin.ozgurradyo.com:8100
-` 
+{% highlight ruby %}
 
 komutunu kullanmak yeterli.

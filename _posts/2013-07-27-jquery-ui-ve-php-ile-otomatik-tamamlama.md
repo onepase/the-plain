@@ -30,15 +30,15 @@ Hazırlık:
 
 Öncelikle css ve js dosyalarımızı autocomplete kullanacağımız projemize dahil ediyoruz.
 
-`
+{% highlight ruby %}
 <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.10.3.custom.css" >
 <script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
 <input type="text" id="search" name="search" >
-`
+{% highlight ruby %}
 
 Autocomplete kullanacağımız input alanı için şöyle bir yol izlememiz gerekiyor;
 
-`    
+{% highlight ruby %} 
 $(function() { 
     $( "#search" ).autocomplete({
       source: function( request, response ) {
@@ -60,7 +60,7 @@ $(function() {
       },
     });
 });
-`    
+{% highlight ruby %}  
     
 
 Yaptığımız aslında basitçe bir ajax olayı ve input alanına her karakter girilince tetiklenmesini sağlamak. Search idsine sahip input alanına her girilen karakter tekrar ajax isteği başlatıyor ve search.php sayfamıza parametre geçerek bize bir json verisi döndürüyor. Yani örneğin kullanıcının "ali" kelimesini aratacağını düşünelim;
@@ -73,7 +73,7 @@ Yaptığımız aslında basitçe bir ajax olayı ve input alanına her karakter 
 
 Search.php sayfamızı basitçe şöyle kurgulayabiliriz.
 
-`    
+{% highlight ruby %} 
 $options = array();
 $term    = $_GET['term'];
 $results = $this->db->get_results('SELECT name FROM user WHERE name LIKE '$term%''); //Kullandığımız kütüphaneye göre veritabanında arama yapıyoruz
@@ -84,6 +84,6 @@ foreach($results as $k=>$v):
 }
 
 echo json_encode($options);
-`    
+{% highlight ruby %}
 
 Search.php sayfamızda gelen parametreye göre veritabanımızda arama yapıyoruz ve sonucu json verisi olarak ekrana basıyoruz. Ajax olayı da bu sayede json verisini geri sonuç olarak alıyor ve input alanında otomatik tamamlama verisi olarak kullanıyor.
