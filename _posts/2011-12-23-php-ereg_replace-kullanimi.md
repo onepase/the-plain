@@ -14,7 +14,7 @@ tags:
 ---
 Bazen PHP'de bir takım manipülasyonlar yapmanız gerekebilir. Bu anlarda kendi fonksiyonlarımız iş gördüğü gibi PHP fonksiyonları da imdadınıza koşuyor.
 
-Şimdi bu fonksiyonlardan sadece birisi olan "ereg/_replace" fonksiyonu hakkında biraz bilgi verelim. ereg/_replace fonksiyonu stringler üzerinde manipülasyon yapmanıza olanak sağlıyor. Örneğin;
+Şimdi bu fonksiyonlardan sadece birisi olan "ereg_replace" fonksiyonu hakkında biraz bilgi verelim. ereg_replace fonksiyonu stringler üzerinde manipülasyon yapmanıza olanak sağlıyor. Örneğin;
 
 "Bugün hava çok sisli" cümlesindeki "sisli" kelimesini "yağmurlu" ile değiştirmek için;
 
