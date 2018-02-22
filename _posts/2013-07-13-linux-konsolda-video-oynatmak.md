@@ -7,7 +7,7 @@ img: Screenshot.png
 ---
 Linux üzerinde, benim gibi konsolda ascii karakterler ile video izlemek isteyen birileri mutlaka vardır. Teknolojide her zaman eskiye özlem duyan ve yaşatmaya çalışanlar için linux üzerinde mplayer ile bunu gerçekleştirmek mümkün. Konsolda
 
-{% highlight ruby %}
+{% highlight bash %}
 mplayer -vo aa video.avi
 {% endhighlight %}
 

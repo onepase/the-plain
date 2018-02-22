@@ -16,5 +16,6 @@ tags:
 ---
 Linux üzerinde bir dizin içinde bulunan belirli dosya uzantılarını değiştirmek, örnek olarak .html uzantılarını .htm olarak değiştirmek için;
 
-<pre>rename s/.html/.htm/ *.html
-</pre>
+{% highlight bash %}
+rename s/.html/.htm/ *.html
+{% endhighlight %}

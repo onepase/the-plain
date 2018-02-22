@@ -2,9 +2,8 @@
 id: 54
 title: 'PhpSysInfo &#8211; Php Server Monitor'
 date: 2012-08-09T01:16:31+00:00
-author: Pase
+author: Hakan
 layout: post
-guid: http://www.pasein.com/?p=54
 permalink: /phpsysinfo-php-server-monitor/
 categories:
   - PHP
@@ -20,7 +19,3 @@ Betik için kuruluma gerek yok, direkt olarak <http://phpsysinfo.sourceforge.ne
 Ek olarak kaynakları fazla tüketmemek adına default olarak gelen 1 dakikalık yenileme süresini fazla kısaltmamanızı ve işlemci kullanımını göstermemenizi öneririm.
 
 Ekran görüntüsü fikir sahibi olmanıza yardımcı olacaktır.
-
-&nbsp;
-
-[<img class="aligncenter size-medium wp-image-55" title="Screenshot-1" src="http://www.pasein.com/wp-content/uploads/Screenshot-1-300x168.png" alt="phpsysinfo" width="300" height="168" />](http://www.pasein.com/wp-content/uploads/Screenshot-1.png)

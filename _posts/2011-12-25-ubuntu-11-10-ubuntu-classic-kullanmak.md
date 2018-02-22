@@ -16,7 +16,7 @@ Ubuntu 11.10 dağıtımı ile birlikte gelen unity klasik Gnome Ubuntu kullanıc
 
 Bunun için ubuntu-shell ve ubuntu-session-fallback paketlerinin kurulması gerek. Bunun için;
 
-{% highlight ruby %}
+{% highlight bash %}
 apt-get install ubuntu-shell
 
 apt-get install ubuntu-session-fallback

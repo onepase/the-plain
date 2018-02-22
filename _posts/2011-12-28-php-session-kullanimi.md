@@ -11,11 +11,11 @@ tags:
   - php
   - session
 ---
-PHP&#8217;de olmazsa olmazlardan biri olan session kullanımından bahsedelim.
+PHP'de olmazsa olmazlardan biri olan session kullanımından bahsedelim.
   
 Session bir nevi global değişkenlerdir. Farklı php sayfalarında erişmek istediğiniz veriler olabilir. Örneğin sisteme giriş yapmış kullanıcı adını Session değişkeninde tutalım ve buna erişelim. Kullanıcının sisteme başarılı bir şekilde giriş yaptığını varsayalım. Kullanıcı adı $username değişkeninde saklanıyor olsun. Mesela login.php sayfamızda;
 
-{% highlight ruby %}
+{% highlight php %}
 <?php
 session_start();
 $_SESSION["username"] = $username;
@@ -26,11 +26,11 @@ Buradaki session_start() fonksiyonuyla yeni bir oturum başlattık ve session de
   
 Diyelim ki redirect.php diye bir yönlendirme sayfamız var ve bu sayfamız kullanıcı başarılı bir giriş yaptıktan sonra anasayfaya yönlendiriyor olsun. Login.php sayfamızdaki $username değişkenimizi bu sayfada kullanamayız. Dolayısıyla session işimizi görecek.
 
-{% highlight ruby %}
+{% highlight php %}
 <?php
 session_start();
 echo "Hoşgeldin ".$_SESSION["username"];
 ?>
 {% endhighlight %}
 
-gibi bir kullanım yapabiliriz. Burada basitçe login.php&#8217;de başarılı bir şekilde giriş yapmış olan kullanıcıya redirect.php sayfasında hoşgeldin dedik.
+gibi bir kullanım yapabiliriz. Burada basitçe login.php'de başarılı bir şekilde giriş yapmış olan kullanıcıya redirect.php sayfasında hoşgeldin dedik.

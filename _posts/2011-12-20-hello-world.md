@@ -2,9 +2,8 @@
 id: 7
 title: Hello World!
 date: 2011-12-20T23:21:13+00:00
-author: Pase
+author: Hakan
 layout: post
-guid: http://www.pasein.com/?p=7
 permalink: /hello-world/
 categories:
   - Genel
@@ -17,12 +16,11 @@ tags:
 
 Bu ilk yazım, Dennis Ritchie&#8217;nin &#8220;The C Programming Language&#8221; de tanımladığı ilk C programı için kullandığı tabir olan;
 
-<pre class="brush: c; gutter: true">#include &lt;stdio.h&gt; 
+{% highlight c %}
+#include <stdio.h> 
 int main() {
 printf("hello world!");
 }
-</pre>
-
-&nbsp;
+{% endhighlight %}
 
 tanımlamasından doğan &#8220;Hello World&#8221; akımına kapılan her &#8220;coder(!)&#8221; gibi ben de böyle bir başlıkla başladım. Hadi bakalım bloglayalım!

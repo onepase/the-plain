@@ -1,6 +1,6 @@
 ---
 id: 27
-title: 'PHP ereg\_replace Fonksiyonu'
+title: 'PHP ereg_replace Fonksiyonu'
 date: 2011-12-23T10:33:55+00:00
 author: Hakan
 layout: post
@@ -14,11 +14,11 @@ tags:
 ---
 Bazen PHP’de bir takım manipülasyonlar yapmanız gerekebilir. Bu anlarda kendi fonksiyonlarımız iş gördüğü gibi PHP fonksiyonları da imdadınıza koşuyor.
 
-Şimdi bu fonksiyonlardan sadece birisi olan ereg\_replace fonksiyonu hakkında biraz bilgi verelim. ereg\_replace fonksiyonu stringler üzerinde manipülasyon yapmanıza olanak sağlıyor. Örneğin;
+Şimdi bu fonksiyonlardan sadece birisi olan ereg_replace fonksiyonu hakkında biraz bilgi verelim. ereg\_replace fonksiyonu stringler üzerinde manipülasyon yapmanıza olanak sağlıyor. Örneğin;
 
 "Bugün hava çok sisli" cümlesindeki sisli kelimesini yağmurlu ile değiştirmek için;
 
-{% highlight ruby %}
+{% highlight php %}
 <?php
 $cumle="Bugün hava çok sisli";
 $cumle=ereg_replace("sisli","yağmurlu",$cumle);

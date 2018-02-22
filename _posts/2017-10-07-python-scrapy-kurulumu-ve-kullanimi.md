@@ -13,15 +13,19 @@ Scrapy Python ile yazılmış, html ve xml gibi yapısal içeriklerden verilerin
 
 pip kurulu sistemler üzerinde
 
-`pip install scrapy`
+{% highlight bash %}
+pip install scrapy
+{% endhighlight %}
 
 komutu ile kurulumu yapılabilir. Kurulum gerçekleştirildikten sonra terminal üzerinden proje dizininde,
 
-`scrapy startproject tutorial`
+{% highlight bash %}
+scrapy startproject tutorial
+{% endhighlight %}
 
 komutuyla yeni bir scrapy projesi oluşturulur. Bir scrapy projesi oluşturulduğunda şu şekilde bir dosya/dizin yapısı oluşmuş olacaktır.
 
-```bash
+{% highlight bash %}
 tutorial/
     scrapy.cfg            # deploy configuration file
 
@@ -36,11 +40,11 @@ tutorial/
 
         spiders/          # a directory where you'll later put your spiders
             __init__.py
-```
+{% endhighlight %}
 
 Örnek bir spider 
 
-```bash
+{% highlight python %}
 import scrapy
 
 class QuotesSpider(scrapy.Spider):
@@ -57,16 +61,20 @@ class QuotesSpider(scrapy.Spider):
                 'author': quote.css('small.author::text').extract_first(),
                 'tags': quote.css('div.tags a.tag::text').extract(),
             }
-```
+{% endhighlight %}
 
 Scrapy örümcekleri ile bir veya birden fazla adres üzerinde tarama ve veri çıkarma işlemi yapılabilmektedir. Scrapy seçicileri ile istenen alanlar seçilip filtrelenebilmektedir. Scrapy seçicilerinde xpath scrapy tarafından desteklenmektedir.
 
 Crawl etmek için 
 
-`scrapy crawl quotes`
+{% highlight bash %}
+scrapy crawl quotes
+{% endhighlight %}
 
 Elde edilen çıktıyı json formatında bir dosyaya yazmak için
 
-`scrapy crawl quotes -o qutoes.json`
+{% highlight bash %}
+scrapy crawl quotes -o qutoes.json
+{% endhighlight %}
 
 komutu kullanılabilir.
