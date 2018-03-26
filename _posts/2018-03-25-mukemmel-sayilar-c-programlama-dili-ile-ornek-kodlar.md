@@ -60,16 +60,19 @@ Mükemmel sayıların bulunması için örnek bir C programı şöyle;
 #include <stdio.h>
 
 int main(){
-	//1'den 10000'e kadar olan mukemmel sayilari bulmaya calisiyoruz
+	//1'den 10000'e kadar olan mukemmel 
+	//sayilari bulmaya calisiyoruz
 	for (int i=1; i <10000 ; i++) {
-		//Her sayi icin pozitif tam bolenlerini bularak kendisi haric toplamini hesapliyoruz
+		//Her sayi icin pozitif tam bolenlerini 
+		//bularak kendisi haric toplamini hesapliyoruz
 		int sum = 0;
 		for(int j=1; j<i; j++){
 			if(i%j==0){
 				sum = sum + j;
 			}
 		}
-		//Kendisi haric pozitif tam bolenlerinin toplami kendisine esit mi diye kontrol ediyoruz
+		//Kendisi haric pozitif tam bolenlerinin 
+		//toplami kendisine esit mi diye kontrol ediyoruz
 		if(sum == i){
 			printf("%d\n",i );
 		}
