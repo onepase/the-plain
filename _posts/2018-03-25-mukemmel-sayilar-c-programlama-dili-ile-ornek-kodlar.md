@@ -21,7 +21,9 @@ Mükemmel sayılar için keşfedilen formül p ve $$2^p-1$$ sayıları asal say�
 $$2^{p-1}(2^p-1)$$
 
 p=2 için $$2^1(2^2-1) = 6$$
+
 p=3 için $$2^2(2^3-1) = 28$$
+
 p=5 için $$2^4(2^5-1) = 496$$
 
 Mükemmel sayılarla ilgili diğer bir formül ise, mükemmel bir sayının 1 hariç tüm pozitif tam bölenlerinin tersinin toplamı 1'e eşittir. 
@@ -33,23 +35,14 @@ Mükemmel sayılarla ilgili diğer bir formül ise, mükemmel bir sayının 1 ha
 Şimdiye kadar hesaplanabilen tüm mükemmel sayılar çifttir. Henüz keşfedilmiş tek mükemmel sayı yok. İlk on mükemmel sayı ise şöyledir;
 
 6
-
 28
-
 496
-
 8128
-
 33550336
-
 8589869056
-
 137438691328
-
 2305843008139952128
-
 2658455991569831744654692615953842176
-
 191561942608236107294793378084303638130997321548169216
 
 Mükemmel sayıların bulunması için C programlama dilinde yaklaşımımız, sayının tüm pozitif tam bölenlerini hesaplamak ve toplamak yönünde olacak. Dolayısıyla ilk 4 mükemmel sayı hızlı bir şekilde bulunabilse de, sonraki mükemmel sayılar için iterasyon bir hayli artacağı için hesaplama süresi de bir o kadar artacaktır. Geleneksel yöntemin haricinde her tam bölen bulunduktan sonra, sonraki bölenlerin bulunması sürecinde tekrar hesaplamak yerine işaretleyerek, algoritmayı geliştirmek ve işlem süresini kısaltmak mümkün. 
