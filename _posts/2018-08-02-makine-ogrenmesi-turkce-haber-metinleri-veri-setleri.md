@@ -18,3 +18,5 @@ Veri setinde bulunan haberler, kelime frekanslarını kullanan bir özetleme sis
 - Sanat
 - Spor
 - Teknoloji olarak kategorilere ayrılmıştır ve her bir kategoriye ait haberler farklı tablolarda bulunmaktadır. Haberler başlık, özet metin, kaynak ve zaman damgası bilgilerini içermektedir.
+
+[İlgili veri seti](https://hakan.io/assets/files/dataset/news.sql)
