@@ -1182,6 +1182,7 @@ a.newer-posts:hover {
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
 .wrap-content {
   padding: 20px;
+  max-width: 1000px;
 }
 
 .header-page {
