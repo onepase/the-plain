@@ -6,6 +6,7 @@ layout: post
 permalink: /memcached-kurulumu-ve-php-memcache-kullanimi/
 categories: Genel
 tags: [memcached, php, memcache, kullanim, ornek]
+img: memcached-logo.png
 ---
 
 Yüksek trafiğe sahip web sunucular, özellikle CRUD işlemlerinin fazla olduğu web sunucular, yüksek trafik sonucunda çok fazla yük altına girecektir. Böyle bir durumda, kod kaynakları yeterince verimli kullanabilecek şekilde yazılmışsa, ağır yük altında hizmet verebilmek için ilk ihtiyaç duyulanlardan biri, bir önbellek mekanizmasıdır. 

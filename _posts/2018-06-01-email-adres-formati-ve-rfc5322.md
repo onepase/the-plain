@@ -6,6 +6,7 @@ layout: post
 permalink: /email-adres-formati-php-filter-var-fonksiyonu-ve-rfc-5321/
 categories: Genel
 tags: [email adres formatı, php filter_var fonksiyonu, rfc 5321]
+img: email.jpg
 ---
 
 Email adres formatı Rfc 5321 ile belirlenmiş durumda. Fakat pratikte işler biraz değişiyor. Rfc5321 bir email adresinin şu şekilde olabileceğini bize söylüyor. 

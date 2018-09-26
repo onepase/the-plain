@@ -6,6 +6,7 @@ layout: post
 permalink: /makine-ogrenmesi-turkce-haber-metinleri-veri-seti/
 categories: Genel
 tags: [makine öğrenmesi, türkçe haber metinleri, veri seti]
+img: dataset.jpg
 ---
 
 
