@@ -65,4 +65,4 @@ int main()
 
 	return 0;
 }
-{% highlight c %}
+{% endhighlight %}
