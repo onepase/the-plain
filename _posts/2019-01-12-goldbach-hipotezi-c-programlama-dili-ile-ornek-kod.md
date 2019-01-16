@@ -6,9 +6,17 @@ layout: post
 permalink: /goldbach-hipotezi-sanisi-c-programlama-dili-ile-ornek-kod/
 categories: Genel
 tags: [goldbach hipotezi, goldbach sanısı, asal sayılar, c programlama, c örnek]
-img: goldbach.jpg
+img: goldbach.png
 ---
 Goldbach hipotezi veya sanısı, 2'den büyük her çift tam sayının iki asal sayının toplamı şeklinde yazılabileceği iddiasıdır. İspatlanamamış en büyük matematik problemlerinden biridir. Orijinal Goldbach hipotezinde, Goldbach; 2'den büyük her tamsayının 3 asal sayının toplamı şeklinde ifade edilebileceğini iddia eder. 1 sayısının da asal sayı olduğu düşünülerek bu iddia ortaya atılmıştır. Sonrasında 1 asal sayı olarak kabul edilmediği için bu iddia geçerliliğini yitirmiştir. Goldbach hipotezi veya sanısı olarak ele aldığımız bu iddia, Euler'in "2'den büyük her çift tam sayı, iki asal sayının toplamından bulunabilir" şeklindeki düzeltmesini kapsamaktadır. 
+
+Örnek olarak; 4,6,8,10,12 çift tam sayıları şu şekilde iki asal sayının toplamı şeklinde yazılabilir.
+
+4 = 2 + 2
+6 = 3 + 3
+8 = 3 + 5
+10 = 3 + 7
+12 = 5 + 7
 
 2'den büyük bir çift tam sayının, iki asal sayının toplamı şeklinde yazılmasının çözüm kümesinde en küçük asal sayıyı içeren ayrışımı bulabilecek örnek bir C kodu şu şekilde olacaktır.
 
