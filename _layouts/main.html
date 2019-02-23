@@ -41,6 +41,11 @@ layout: default
         {% else %}
           <li class="email"><a href="mailto:example.david@blog.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
         {% endif %}
+        {% if site.devto %}
+          <li class="devto"><a href="https://dev.to/{{site.devto}}" target="_blank"><i class="fab fa-dev"></i></a></li>
+        {% else %}
+          <li class="devto"><a href="https://dev.to/" target="_blank"><i class="fab fa-dev" aria-hidden="true"></i></a></li>
+        {% endif %}
       </ul>
     </section> <!-- End Section Contact -->
     <div class="copyright">
