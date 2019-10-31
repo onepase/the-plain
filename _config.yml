@@ -43,7 +43,7 @@ gems:
 
 plugins_dir:
   - jekyll-sitemap
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jemoji
 paginate: 8
 paginate_path: "/page/:num"
