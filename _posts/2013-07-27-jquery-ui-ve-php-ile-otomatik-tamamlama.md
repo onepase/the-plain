@@ -63,13 +63,13 @@ $(function() {
 {% endhighlight %} 
     
 
-Yaptığımız aslında basitçe bir ajax olayı ve input alanına her karakter girilince tetiklenmesini sağlamak. Search idsine sahip input alanına her girilen karakter tekrar ajax isteği başlatıyor ve search.php sayfamıza parametre geçerek bize bir json verisi döndürüyor. Yani örneğin kullanıcının "ali" kelimesini aratacağını düşünelim;
+Yaptığımız aslında basitçe bir ajax requestin input alanına her karakter girilince tetiklenmesini sağlamak. Search idsine sahip input alanına her girilen karakter tekrar ajax isteği başlatıyor ve search.php sayfamıza parametre geçerek bize bir json verisi döndürüyor. Yani örneğin kullanıcının "ali" kelimesini aratacağını düşünelim;
 
-- Kullanıcı a harfine bastığında ajax olayı search.php?term=a
+- Kullanıcı a harfine bastığında search.php?term=a
   
-- Kullanıcı l harfine bastığında ajax olayı search.php?term=al
+- Kullanıcı l harfine bastığında search.php?term=al
   
-- Kullanıcı i harfine bastığında ajax olayı search.php?term=ali sayfasına istekte bulunacak ve bize search.php sayfamızdan bir json verisi dönecek. 
+- Kullanıcı i harfine bastığında search.php?term=ali sayfasına istekte bulunacak ve bize search.php sayfamızdan bir json verisi dönecek. 
 
 Search.php sayfamızı basitçe şöyle kurgulayabiliriz.
 

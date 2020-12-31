@@ -10,27 +10,34 @@ categories:
 tags:
   - php
   - session
+  - php session kullanımı
+  - php oturum yönetimi
 ---
-PHP'de olmazsa olmazlardan biri olan session kullanımından bahsedelim.
-  
-Session bir nevi global değişkenlerdir. Farklı php sayfalarında erişmek istediğiniz veriler olabilir. Örneğin sisteme giriş yapmış kullanıcı adını Session değişkeninde tutalım ve buna erişelim. Kullanıcının sisteme başarılı bir şekilde giriş yaptığını varsayalım. Kullanıcı adı $username değişkeninde saklanıyor olsun. Mesela login.php sayfamızda;
+PHP'de kullanıcı oturumlarını yönetmek için birtakım fonksiyon kullanılır. İnternet sitesini ziyaret eden her bir kullanıcı için, sunucu üzerinde bir dosya oluşturulur ve kullanıcı oturumuna ait veriler bu dosya içerisine kaydedilir. Sunucu üzerinde bulunan session dosyası ile ziyaretçinin eşleştirilmesi için ise, istemci üzerinde bir cookie oluşturulur. Tüm bu işlemler için PHP session fonksiyonları ve başlatılmış oturumlar için kullanılan $_SESSION dizisi ile kabaca oturum yönetimi yapılabilir.
+
+PHP'de bir oturum başlatmak için en yalın haliyle aşağıdaki gibi bir kod çalıştırılabilir.
 
 {% highlight php %}
 <?php
 session_start();
+$username = "Test";
 $_SESSION["username"] = $username;
 ?>
 {% endhighlight %}
 
-Buradaki session_start() fonksiyonuyla yeni bir oturum başlattık ve session değişkenine username isimli değişkendeki veriyi bir array indisi olarak set etmiş olduk.
-  
-Diyelim ki redirect.php diye bir yönlendirme sayfamız var ve bu sayfamız kullanıcı başarılı bir giriş yaptıktan sonra anasayfaya yönlendiriyor olsun. Login.php sayfamızdaki $username değişkenimizi bu sayfada kullanamayız. Dolayısıyla session işimizi görecek.
+Buradaki session_start() fonksiyonuyla yeni bir oturum başlatılır. Oturum başlatıldıktan sonra, oturum verilerinin tutulacağı $_SESSION dizisine, username isimli değişkendeki veri atanır.
+
 
 {% highlight php %}
 <?php
 session_start();
-echo "Hoşgeldin ".$_SESSION["username"];
+echo "Kullanıcı Adı:".$_SESSION["username"];
 ?>
 {% endhighlight %}
 
-gibi bir kullanım yapabiliriz. Burada basitçe login.php'de başarılı bir şekilde giriş yapmış olan kullanıcıya redirect.php sayfasında hoşgeldin dedik.
+Burada ise session_start() ile oturum başlatılarak daha önce $_SESSION['username'] değişkenine atanan veri ekrana yazdırılır.
+
+Herhangi bir zaman, oturum sonlandırılmak ve session verileri silinmek istenirse session_destroy() fonksiyonu çalıştırılır.
+
+
+
