@@ -1,5 +1,5 @@
 ---
-title: 'Wikileaks Kurucusu Julian Assange\'ın Tutuklanması Üzerine'
+title: "Wikileaks Kurucusu Julian Assange'ın Tutuklanması Üzerine"
 date: 2016-11-04T00:00:00+00:00
 author: Hakan
 layout: post
